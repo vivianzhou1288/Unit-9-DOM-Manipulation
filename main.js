@@ -13,9 +13,9 @@ function backgroundAndText(back, text) {
 //   Event Listeners wait for a specified event to happen to an element, and then execute code when their conditions are met
 
 DOMSelectors.button.addEventListener("click", function () {
-  backgroundAndText(DOMSelectors.box, DOMSelectors.text);
-},
-false
+    backgroundAndText(DOMSelectors.box, DOMSelectors.text);
+  },
+  false
 );
 
 // When you click the button element, the function 'changeBackground()' will run
@@ -28,7 +28,7 @@ function changeLi() {
     el.addEventListener(
       "click",
       function () {
-        el.innerHTML = `${i}`;
+        el.innerHTML = `${i}`; // you can use template literals in DOMSelectors as well!
         i++;
 
         console.log(i);
