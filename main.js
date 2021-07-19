@@ -15,7 +15,6 @@ function backgroundAndText(back, text) {
 DOMSelectors.button.addEventListener("click", function () {
     backgroundAndText(DOMSelectors.box, DOMSelectors.text);
   },
-  false
 );
 
 // When you click the button element, the function 'changeBackground()' will run
@@ -33,7 +32,6 @@ function changeLi() {
 
         console.log(i);
       },
-      false
     );
   });
 }
