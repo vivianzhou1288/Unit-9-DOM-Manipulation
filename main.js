@@ -15,6 +15,7 @@ console.log(DOMSelectors.box);
 console.log(DOMSelectors.button);
 console.log(DOMSelectors.text);
 console.log(DOMSelectors.points);
+console.log(DOMSelectors.points[0]); // this returns the first ever element in the document with class 'point'
 console.log(DOMSelectors.null);
 console.log(DOMSelectors.nothing);
 // when you look in the console after logging DOMSelectors, you will be able to see the elements that the DOMSelector accesses.
