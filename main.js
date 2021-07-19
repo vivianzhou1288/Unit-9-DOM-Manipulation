@@ -5,8 +5,6 @@ const DOMSelectors = {
   points: document.querySelectorAll(".point"),
 };
 
-console.log(DOMSelectors.points[0]); // this returns the first ever element in the document with class 'point'
-
 function backgroundAndText(back, text) {
   back.style.backgroundColor = "brown"; // element.style is used to make adjustments to the style of an element in js
   text.innerHTML = "this is a big red box, now go look at console"; // .innerHTMl lets you edit an element, defined before the '.'. in this case it was "#text" being edited, defined by text.innerHTML. The desired element is selected through its assigned DOMSelector object.
