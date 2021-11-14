@@ -9,7 +9,7 @@ const DOMSelectors = {
   points: document.querySelectorAll(".point"), // querySelectorAll will access multiple elements with the same class, in this case being "point"
   /* pointTwo: document.getElementById("pointTwo"),
   null: document.getElementById("point"), // if you try to access a class with getElementById, it will result in "null"
-  empty: document.querySelector(".nothing"), */
+  empty: document.querySelector(".nothing"), 
 };
 
 /* console.log(DOMSelectors.box);
